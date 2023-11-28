@@ -1,0 +1,106 @@
+/* Selector universal: resetea margen, relleno y establece box-sizing para todos los elementos */
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para un contenedor fluido, con un color de fondo específico */
+.container-fluid{
+    background-color: #e6beae;
+}
+
+/* Estilos para la marca de la barra de navegación, con color, tipo de letra y tamaño específicos */
+.navbar-brand{
+    color: white;
+    font-family: 'Dancing Script';
+    font-size: 45px;
+    transition: 0.5s;
+}
+
+/* Estilos para enlaces dentro de la navegación, incluyendo color, tipo de letra y transición */
+.navbar-nav a{
+    color: white;
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+/* Estilos para un carrusel personalizado, con márgenes automáticos y ancho máximo */
+.mi-carrusel {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+}
+
+/* Estilos para imágenes dentro de los elementos del carrusel, ajustando el ancho, la altura y el ajuste del objeto */
+.carousel-item img {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+
+/* Estilos para encabezados h1 en secciones, centrados y con una tipografía específica */
+section h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos para párrafos en secciones, incluyendo alineación, tipografía y tamaño de fuente */
+section p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+/* Estilos para encabezados h5 en el pie de página, centrados con una tipografía específica */
+footer div h5{
+    text-align: center;
+    font-family: 'Dancing Script';
+    font-size: 40px;
+}
+
+/* Estilos para enlaces dentro de un div en el pie de página, con color, decoración y transición */
+footer div a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+/* Estilo para el hover de los enlaces en el pie de página, cambiando el color al pasar el mouse */
+footer div a:hover{
+    color: black;
+}
+
+/* Estilo para listas no estilizadas, alineando el texto al centro */
+.list-unstyled{
+    text-align: center;
+}
+
+/* Estilos para botones, con un color de fondo y borde específicos */
+.btn{
+    background-color: #e6beae;
+    border: #e6beae;
+}
+
+/* Estilo para el hover de los botones, cambiando el color de fondo */
+.btn:hover{
+    background-color: gray;
+}
+
+/* Estilo para un elemento genérico 'ani', con visualización de bloque y márgenes automáticos */
+.ani{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+}
+
+/* Estilos para un elemento de columna, definiendo dimensiones, visualización y margen */
+.col-4 {
+    display:block;
+    width:400px;
+    height:300px;
+    max-width: 400px;
+    margin-bottom: 0px;
+}
