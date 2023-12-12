@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*enlace de cada seccion de scss*/
 /* Estilos para botones, con un color de fondo y borde específicos */
 .center-div {
   display: flex;
@@ -15,6 +16,7 @@
   transform: scale(1.1);
 }
 
+/*estilos del header*/
 header .container-fluid {
   background-color: #e6beae;
 }
@@ -101,8 +103,6 @@ footer div ul div a .fa-brands:hover {
   transform: rotate(360deg);
 }
 
-/* Estilos para enlaces dentro de un div en el pie de página, con color, decoración y transición */
-/* Estilo para el hover de los enlaces en el pie de página, cambiando el color al pasar el mouse */
 .list-unstyled {
   text-align: center;
 }
@@ -117,10 +117,10 @@ footer div ul div a .fa-brands:hover {
   padding: 30px;
   border-radius: 10px;
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
-  width: 700px;
+  width: auto;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 50px;
+  margin-right: 50px;
   /* Estilos para encabezados h1 en secciones, centrados y con una tipografía específica */
   /* Estilos para párrafos en secciones, incluyendo alineación, tipografía y tamaño de fuente */
 }
@@ -134,6 +134,7 @@ footer div ul div a .fa-brands:hover {
   font-size: 25px;
 }
 
+/*estilos de imagenes de galeria*/
 .img-fluid {
   border-radius: 10px;
   margin: 20px;
@@ -147,6 +148,7 @@ footer div ul div a .fa-brands:hover {
   transform: scale(1.25);
 }
 
+/*estilos de apartado sobre mi*/
 .imagenana {
   margin-top: 100px;
   display: flex;
