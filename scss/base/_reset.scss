@@ -1,0 +1,9 @@
+/* Selector universal: resetea margen, relleno y establece box-sizing para todos los elementos */
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .cont {
+    margin-top: 50px;
+  }

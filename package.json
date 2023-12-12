@@ -1,0 +1,11 @@
+{
+  "name": "sass8annie",
+  "version": "1.0.0",
+  "description": "Este es el prentregable 2 de Jorge Alberto Telpalo Escalante para CoderHouse\r desarrollo web.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

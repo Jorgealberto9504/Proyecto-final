@@ -1,0 +1,19 @@
+/* Estilos para botones, con un color de fondo y borde específicos */
+
+.center-div {
+    display: flex;
+    justify-content: center;
+
+    .btn {
+
+        background-color: #e6beae;
+        border: #e6beae;
+        transition: 0.5s;
+
+        /* Estilo para el hover de los botones, cambiando el color de fondo */
+        &.btn:hover {
+            background-color: #ddad94;
+            transform:scale(1.1);
+        }
+    }
+}

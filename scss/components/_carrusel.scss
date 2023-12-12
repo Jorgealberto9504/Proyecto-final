@@ -1,0 +1,22 @@
+/* Estilo para agregar un margen superior al carrusel */
+.carru {
+    margin-top: 100px;
+  }
+  
+  /* Estilos para un carrusel personalizado, con márgenes automáticos y ancho máximo */
+  .mi-carrusel {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px rgba(0.1, 0.1, 0.1, 0.1);
+  }
+  
+  /* Estilos para imágenes dentro de los elementos del carrusel, ajustando el ancho, la altura y el ajuste del objeto */
+  .carousel-item img {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px rgba(0.1, 0.1, 0.1, 0.1);
+  }
