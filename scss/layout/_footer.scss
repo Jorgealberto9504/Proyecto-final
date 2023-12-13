@@ -1,8 +1,11 @@
+  /*Variables*/
+ @import "../var/variables";
+  
   /* Estilos para encabezados h5 en el pie de página, centrados con una tipografía específica */
   footer {
     
       div {
-        background-color: #e6beae;
+        background-color: $color-footer;
           h5 {
               text-align: center;
               font-family: 'Dancing Script';

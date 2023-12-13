@@ -1,11 +1,13 @@
+/*variables*/
+@import "../var/variables";
 /*estilos del header*/
   header{
     .container-fluid{
-      background-color: #e6beae;
+      background-color:$color-principal;
       .navbar-brand{
         margin-left: 20px;
         color: white;
-        font-family: 'Dancing Script';
+        font-family: $tipografia-header;
         font-size: 45px;
         transition: 0.5s;
     &:hover{
@@ -17,7 +19,7 @@
         .navbar-nav{
           .nav-link{
             color: white;
-            font-family: 'Dancing Script';
+            font-family: $tipografia-header;
             font-size: 30px;
             transition: 0.5s;
             &:hover{

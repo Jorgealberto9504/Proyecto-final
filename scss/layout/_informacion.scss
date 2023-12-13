@@ -1,8 +1,11 @@
+/*variables importadas*/
+@import "../var/variables";
+/*Estilos de recuadros de informacion*/
 .gradient-informacion {
   background-image: linear-gradient(to right, #ffe7dd, #fcd2c2, );
   margin: 25px;
   padding: 30px;
-  border-radius: 10px;
+  border-radius: $borde;
   box-shadow: 5px 5px 5px 5px rgba(0.1, 0.1, 0.1, 0.1);
   width: auto;
   text-align: center;

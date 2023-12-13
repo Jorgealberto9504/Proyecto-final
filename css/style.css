@@ -16,6 +16,8 @@
   transform: scale(1.1);
 }
 
+/*variables*/
+/*variables a utilizar en otros archivos sass*/
 /*estilos del header*/
 header .container-fluid {
   background-color: #e6beae;
@@ -76,6 +78,8 @@ header .container-fluid .navbar-nav .nav-link:hover {
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
+/*Variables*/
+/*variables a utilizar en otros archivos sass*/
 /* Estilos para encabezados h5 en el pie de página, centrados con una tipografía específica */
 footer div {
   background-color: #e6beae;
@@ -111,6 +115,9 @@ footer div ul div a .fa-brands:hover {
   margin-top: 50px;
 }
 
+/*variables importadas*/
+/*variables a utilizar en otros archivos sass*/
+/*Estilos de recuadros de informacion*/
 .gradient-informacion {
   background-image: linear-gradient(to right, #ffe7dd, #fcd2c2);
   margin: 25px;
@@ -134,6 +141,8 @@ footer div ul div a .fa-brands:hover {
   font-size: 25px;
 }
 
+/*Variables*/
+/*variables a utilizar en otros archivos sass*/
 /*estilos de imagenes de galeria*/
 .img-fluid {
   border-radius: 10px;
@@ -148,6 +157,8 @@ footer div ul div a .fa-brands:hover {
   transform: scale(1.25);
 }
 
+/*variables*/
+/*variables a utilizar en otros archivos sass*/
 /*estilos de apartado sobre mi*/
 .imagenana {
   margin-top: 100px;
@@ -158,5 +169,7 @@ footer div ul div a .fa-brands:hover {
   border-radius: 10px;
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
+
+/*variables a utilizar en otros archivos sass*/
 
 /*# sourceMappingURL=style.css.map */

@@ -1,3 +1,5 @@
+/*Variables*/
+@import "../var/variables";
 /*estilos de imagenes de galeria*/
 .img-fluid {
     border-radius: 10px;
@@ -8,7 +10,7 @@
     transition: 0.5s;
     box-shadow: 5px 5px 5px 5px rgba(0.1, 0.1, 0.1, 0.1);
      &:hover{
-      transform: scale(1.25);
+      transform: $transicion;
      }
     
   }
