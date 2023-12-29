@@ -130,6 +130,7 @@ footer div ul div a .fa-brands:hover {
   margin-right: 50px;
   /* Estilos para encabezados h1 en secciones, centrados y con una tipografía específica */
   /* Estilos para párrafos en secciones, incluyendo alineación, tipografía y tamaño de fuente */
+  /* Estilos para dispositivos con un ancho máximo de 600px */
 }
 .gradient-informacion h1 {
   text-align: center;
@@ -139,6 +140,13 @@ footer div ul div a .fa-brands:hover {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
+}
+@media only screen and (max-width: 600px) {
+  .gradient-informacion .parrafo {
+    font-size: 14px; /* Cambiar el tamaño de la fuente para pantallas pequeñas */
+    line-height: 1.2; /* Ajustar el interlineado */
+    /* Otros estilos que desees aplicar en pantallas pequeñas */
+  }
 }
 
 /*Variables*/
